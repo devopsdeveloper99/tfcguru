@@ -1,17 +1,4 @@
-terraform {
-  required_providers {
-    google = {
-      source = "hashicorp/google"
-      version = "4.59.0"
-    }
-  }
-}
 
-provider "google" {
-  project = "playground-s-11-e800175f"
-  region  = "us-central1"
-  zone    = "us-central1-c"
-}
 
 #Create Bucket
 #Upload index.zip
