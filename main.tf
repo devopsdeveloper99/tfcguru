@@ -22,7 +22,7 @@ resource "google_cloudfunctions_function" "fun_from_tf" {
   description = "This is my first function from terraform script."
 
   available_memory_mb = 128
-  source_archive_bucket = google_storage_bucket99991111.fun_bucket.name
+  source_archive_bucket = google_storage_bucket.fun_bucket99991111.name
   source_archive_object = google_storage_bucket_object.srccode.name
 
   trigger_http = true
