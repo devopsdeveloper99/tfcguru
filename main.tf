@@ -7,6 +7,7 @@
 
 resource "google_storage_bucket" "fun_bucket99991111" {
   name = "fun_bucket_tf"
+  location      = "US-CENTRAL1"
 }
 
 resource "google_storage_bucket_object" "srccode" {
