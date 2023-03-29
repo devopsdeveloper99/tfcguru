@@ -9,7 +9,7 @@ provider "google" {
 # }
 
 resource "google_service_account" "default" {
-  account_id   = "250601101404-compute@developer.gserviceaccount.com"
+  account_id   = "116484940409849554682"
   display_name = "Compute Engine default service account"
 }
 
