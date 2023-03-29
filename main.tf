@@ -5,13 +5,13 @@
 #deploy function
 #policy binding
 
-resource "google_storage_bucket" "fun_bucket" {
+resource "google_storage_bucket" "fun_bucket99991111" {
   name = "fun_bucket_tf"
 }
 
 resource "google_storage_bucket_object" "srccode" {
   name = "index.zip"
-  bucket = google_storage_bucket.fun_bucket.name
+  bucket = google_storage_bucket.fun_bucket99991111.name
   source = "index.zip"
 }
 
