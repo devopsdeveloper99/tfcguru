@@ -1,10 +1,4 @@
 
-
-#Create Bucket
-#Upload index.zip
-#deploy function
-#policy binding
-
 resource "google_storage_bucket" "fun_bucket99991111" {
   name = "fun_bucket_tf"
   location      = "US-CENTRAL1"
